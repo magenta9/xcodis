@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/magenta9/redis-failover/failover"
 	log "github.com/ngaut/logging"
 	"github.com/ngaut/zkhelper"
-	"github.com/siddontang/redis-failover/failover"
 	"github.com/siddontang/xcodis/models"
 	"github.com/siddontang/xcodis/utils"
 )
