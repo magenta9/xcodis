@@ -13,11 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/siddontang/xcodis/utils"
-
-	// "github.com/siddontang/xcodis/models"
-	"github.com/siddontang/xcodis/proxy/parser"
-	"github.com/siddontang/xcodis/proxy/router/topology"
+	"github.com/magenta9/xcodis/utils"
+	"github.com/magenta9/xcodis/proxy/parser"
+	"github.com/magenta9/xcodis/proxy/router/topology"
 
 	log "github.com/ngaut/logging"
 

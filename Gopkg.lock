@@ -43,8 +43,8 @@
 [[projects]]
   name = "github.com/coreos/etcd"
   packages = ["error"]
-  revision = "e348b1aedd9167360c466ae98f7343d3e22281f8"
-  version = "v3.3.3"
+  revision = "fdde8705f5bf9a6d9dbfb0220caf2ee1ac816be8"
+  version = "v3.3.4"
 
 [[projects]]
   name = "github.com/coreos/go-etcd"
@@ -110,16 +110,10 @@
   revision = "0fb14efe8c47ae851c0034ed7a448854d3d34cf3"
 
 [[projects]]
+  branch = "master"
   name = "github.com/hashicorp/raft"
   packages = ["."]
-  revision = "6d14f0c70869faabd9e60ba7ed88a6cbbd6a661f"
-  version = "v1.0.0"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/hashicorp/raft-boltdb"
-  packages = ["."]
-  revision = "6e5ba93211eaf8d9a2ad7e41ffad8c6f160f9fe3"
+  revision = "a3fb4581fb07b16ecf1c3361580d4bdb17de9d98"
 
 [[projects]]
   branch = "master"
@@ -128,10 +122,16 @@
   revision = "c7d06af17c68cd34c835053720b21f6549d9b0ee"
 
 [[projects]]
-  branch = "zk-feature"
+  branch = "master"
+  name = "github.com/magenta9/raft-boltdb"
+  packages = ["."]
+  revision = "3ba6dbeb53d74e5d96e7b6c5d4db2223661c8259"
+
+[[projects]]
+  branch = "master"
   name = "github.com/magenta9/redis-failover"
   packages = ["failover"]
-  revision = "85e6d0aba599aa4809c87b4b68efd2e2ba43d783"
+  revision = "6bd21dfc3e280f0b3b09d96767335aa91a543ec6"
 
 [[projects]]
   branch = "master"
@@ -204,27 +204,6 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/siddontang/redis-failover"
-  packages = ["failover"]
-  revision = "6259d5c2a47bba122a54f85848817ecd8ecead8f"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/siddontang/xcodis"
-  packages = [
-    "models",
-    "proxy/cachepool",
-    "proxy/group",
-    "proxy/parser",
-    "proxy/redispool",
-    "proxy/router",
-    "proxy/router/topology",
-    "utils"
-  ]
-  revision = "b131dfc003dbd0de7864df4d99429b71178ed30e"
-
-[[projects]]
-  branch = "master"
   name = "github.com/yuin/gopher-lua"
   packages = [
     ".",
@@ -237,6 +216,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ac7fae764b9289bf49aec4b0043e15cd9852ff611b3aa1726aaaef3f5a66d616"
+  inputs-digest = "590dc6562e9fc2c2012c4b93a949c75a800f41ab017dc86d24c771bed34f2ecf"
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -11,7 +11,7 @@ import (
 
 	"github.com/ngaut/zkhelper"
 
-	"github.com/siddontang/xcodis/utils"
+	"github.com/magenta9/xcodis/utils"
 
 	"github.com/juju/errors"
 )

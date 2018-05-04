@@ -15,7 +15,7 @@ import (
 	"github.com/juju/errors"
 	log "github.com/ngaut/logging"
 	"github.com/ngaut/zkhelper"
-	"github.com/siddontang/xcodis/models"
+	"github.com/magenta9/xcodis/models"
 )
 
 var (

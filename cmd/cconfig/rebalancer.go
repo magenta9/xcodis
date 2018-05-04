@@ -11,8 +11,8 @@ import (
 	log "github.com/ngaut/logging"
 	"github.com/ngaut/zkhelper"
 	"github.com/nu7hatch/gouuid"
-	"github.com/siddontang/xcodis/models"
-	"github.com/siddontang/xcodis/utils"
+	"github.com/magenta9/xcodis/models"
+	"github.com/magenta9/xcodis/utils"
 )
 
 type NodeInfo struct {

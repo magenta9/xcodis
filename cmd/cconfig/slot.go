@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/juju/errors"
-	"github.com/siddontang/xcodis/models"
+	"github.com/magenta9/xcodis/models"
 
 	"github.com/docopt/docopt-go"
 	log "github.com/ngaut/logging"

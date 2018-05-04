@@ -15,14 +15,14 @@ import (
 	"sync"
 	"time"
 
-	topo "github.com/siddontang/xcodis/proxy/router/topology"
+	topo "github.com/magenta9/xcodis/proxy/router/topology"
 
-	"github.com/siddontang/xcodis/models"
-	"github.com/siddontang/xcodis/proxy/group"
-	"github.com/siddontang/xcodis/proxy/parser"
-	"github.com/siddontang/xcodis/proxy/redispool"
+	"github.com/magenta9/xcodis/models"
+	"github.com/magenta9/xcodis/proxy/group"
+	"github.com/magenta9/xcodis/proxy/parser"
+	"github.com/magenta9/xcodis/proxy/redispool"
 
-	"github.com/siddontang/xcodis/proxy/cachepool"
+	"github.com/magenta9/xcodis/proxy/cachepool"
 
 	"github.com/juju/errors"
 	stats "github.com/ngaut/gostats"

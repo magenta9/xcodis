@@ -10,8 +10,8 @@ import (
 
 	"container/list"
 
-	"github.com/siddontang/xcodis/models"
-	"github.com/siddontang/xcodis/utils"
+	"github.com/magenta9/xcodis/models"
+	"github.com/magenta9/xcodis/utils"
 
 	"github.com/juju/errors"
 

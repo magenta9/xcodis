@@ -8,7 +8,6 @@ import (
 	"hash/crc32"
 
 	"fmt"
-	// "github.com/siddontang/xcodis/models"
 )
 
 const (

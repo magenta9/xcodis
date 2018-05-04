@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/ngaut/zkhelper"
-	"github.com/siddontang/xcodis/models"
+	"github.com/magenta9/xcodis/models"
 
 	log "github.com/ngaut/logging"
 

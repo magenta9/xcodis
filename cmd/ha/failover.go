@@ -6,8 +6,8 @@ import (
 	"github.com/magenta9/redis-failover/failover"
 	log "github.com/ngaut/logging"
 	"github.com/ngaut/zkhelper"
-	"github.com/siddontang/xcodis/models"
-	"github.com/siddontang/xcodis/utils"
+	"github.com/magenta9/xcodis/models"
+	"github.com/magenta9/xcodis/utils"
 )
 
 func BeforePromote(oldMaster string) error {
